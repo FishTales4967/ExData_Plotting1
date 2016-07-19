@@ -1,6 +1,5 @@
 plot4 <- {
   library(dplyr)
-  setwd("I:/myRLib/rprog_Course4_Week1/Data")
   cclass <- c("character","character","numeric","numeric","numeric","numeric","numeric","numeric","numeric")
   tbl1 <-  read.delim("household_power_consumption.txt",sep=";",stringsAsFactors = FALSE,na.strings="?")
   mindate <- as.POSIXct("2007-02-01")
